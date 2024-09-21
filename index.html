@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <style>
+       
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Waqar Ahmed Resume</h2>
+
+    <!-- Personal Information Section -->
+    <div class="personal-info">
+        <img src="photo.jpeg" alt="Profile Picture" class="profile-pic">
+        <div class="details">
+            <p><strong>Name:</strong> Waqar Ahmed</p>
+            <p><strong>Email:</strong> wwishking@gmail.com</p>
+            <p><strong>Phone:</strong> +23322655789</p>
+            <p><strong>Address:</strong> House # 377 unit no # 2 latifabd Hyderabad</p>
+        </div>
+    </div>
+
+    <!-- Education Section -->
+    <div class="section">
+        <h3>Education</h3>
+        <div class="section-content">
+            <p><strong>Bachelor of Science in Computer Science</strong></p>
+            <p>University of sindh - Graduated 2016</p>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="section">
+        <h3>Skills</h3>
+        <button class="toggle-btn" onclick="toggleVisibility2('skillsSection')"> Skills</button>
+        <div id="skillsSection" class="section-content">
+            <ul>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>HTML & CSS</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Work Experience Section -->
+    <div class="section">
+        <h3>Work Experience</h3>
+        <button class="toggle-btn" onclick="toggleVisibility2('workExperienceSection')"> Work Experience</button>
+        <div id="workExperienceSection" class="section-content">
+            <p><strong>Software Developer</strong> - Bits Pro softwere house</p>
+            <p>Developed web applications using React, Node.js, and TypeScript. Collaborated with cross-functional teams to deliver high-quality products.</p>
+        </div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
