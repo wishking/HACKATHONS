@@ -9,12 +9,12 @@
 // }
 
 
-import { something } from './anotherModule';
-// or
-import fs from 'fs';
+// import { something } from './anotherModule';
+// // or
+// import fs from 'fs';
 
 // Your existing code
-function toggleVisibility2(sectionId: string): void {
+export function toggleVisibility2(sectionId: string): void {
     const section = document.getElementById(sectionId);
 
     if (section) {
